@@ -108,13 +108,13 @@ endif()
 
   set(EXTERNAL_INSTALL_LOCATION ${generic_pixel-level_editing_SOURCE_DIR}/libs)
 
-    #  ExternalProject_Add(Eigen
-    #    GIT_REPOSITORY https://github.com/RLovelett/eigen.git
-    #    PREFIX ${EXTERNAL_INSTALL_LOCATION}/Eigen
-    #    BUILD_COMMAND ""
-    #    CONFIGURE_COMMAND ""
-    #    INSTALL_COMMAND ""
-    #  )
+	 ExternalProject_Add(Eigen
+	   GIT_REPOSITORY https://github.com/eigenteam/eigen-git-mirror.git
+	   PREFIX ${EXTERNAL_INSTALL_LOCATION}/Eigen
+	   BUILD_COMMAND ""
+	   CONFIGURE_COMMAND ""
+	   INSTALL_COMMAND ""
+	 )
 
   ##################################################################################
   #     paths: include and lib
