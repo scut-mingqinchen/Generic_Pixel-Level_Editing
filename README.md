@@ -1,7 +1,8 @@
 # Pixel-level Image Processing Apps
 A set of QT apps for pixel-level image processing, based on dense labeling from a very sparse user input.
+```
 ![teaser](paper-teaser.png "Paper Teasear")
-
+```
 Please cite our paper if you use any of the free material in this website:
 - Bibtex:<br>
 @inproceedings{liang2019generic,<br>
