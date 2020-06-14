@@ -6,7 +6,7 @@ Please cite our paper if you use any of the free material in this website:
 - Bibtex:<br>
 @inproceedings{liang2019generic,<br>
   title={Generic Interactive Pixel-level Image Editing},<br>
-  author={Liang, Y and Gan, Y and Chen, M and Gutierrez, D and Mu{\~n}oz, A},<br>
+  author={Liang, Y and Gan, Y and Chen, M and Gutierrez, D and Mu{\~n}oz, A},
   booktitle={Computer Graphics Forum},<br>
   volume={38},<br>
   number={7},<br>
