@@ -1,7 +1,20 @@
-# Pixel-level image processing apps
+# Pixel-level Image Processing Apps
 A set of QT apps for pixel-level image processing, based on dense labeling from a very sparse user input.
+![teaser](paper-teaser.png "Paper Teasear")
 
-## Compiling the apps 
+Please cite our paper if you use any of the free material in this website:
+- Bibtex:<br>
+@inproceedings{liang2019generic,<br>
+  title={Generic Interactive Pixel-level Image Editing},<br>
+  author={Liang, Y and Gan, Y and Chen, M and Gutierrez, D and Mu{\~n}oz, A},
+  booktitle={Computer Graphics Forum},<br>
+  volume={38},<br>
+  number={7},<br>
+  pages={23--34},<br>
+  year={2019},<br>
+  organization={Wiley Online Library}<br>
+}
+## Compiling the apps
 
 The following must be installed into your computer:
 * [git] (https://git-scm.com/) for downloading the source code.
@@ -30,11 +43,12 @@ OS X (if installed Qt's official package): ~/Qt5.*.*/5.*.*/clang_64/
 Windows (if installed from Qt's official package with mingw): c:\Qt\5.*.*\mingw482_32\
 
 
-This will compile all the aps and store the executable files in `generic_pixel-level_editing/bin`. In order to execute them please you can either set that folder as part of the `PATH` environment variable, or move to the folder and execute there. None of the three  
+This will compile all the aps and store the executable files in `generic_pixel-level_editing/bin`. In order to execute them please you can either set that folder as part of the `PATH` environment variable, or move to the folder and execute there. None of the three
 
 Using the `build` is recommended in order to avoid poluting the folder with the code with all the compilation files.
 
 Notice that `cmake` has many generators, it is supposed to help cross-plattform compilation. Some of them generate different kinds of makefiles, while some others generate specific IDE projects (such as Visual Studio or XCode projects). Find more information [here](https://cmake.org/cmake/help/v3.0/manual/cmake-generators.7.html).
 
-The parameter `-DCMAKE_BUILD_TYPE=Release` is required for optimization purposes on command-line generators, and can be replaced by `-DCMAKE_BUILD_TYPE=Debug` for debug purposes. IDE generators will include both build types into the corresponding projects. 
+The parameter `-DCMAKE_BUILD_TYPE=Release` is required for optimization purposes on command-line generators, and can be replaced by `-DCMAKE_BUILD_TYPE=Debug` for debug purposes. IDE generators will include both build types into the corresponding projects.
+
 
