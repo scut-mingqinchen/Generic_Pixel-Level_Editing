@@ -5,7 +5,7 @@
 A set of QT apps for pixel-level image processing, based on dense labeling from a very sparse user input.
 - Conference: Pacific Graphics 2019
 - Writers:  Yun Liang, Yibo Gan, Mingqin Chen, Diego Gutierrez, Adolfo Muñoz
-- Institute: South China Agricultural University, College of Mathematics and Informatics; Graphics and Imaging Lab, Universidad de Zaragoza
+- Institute: College of Mathematics and Informatics, South China Agricultural University; Graphics and Imaging Lab, Universidad de Zaragoza
 
 For information please see the paper:
  - Generic Interactive Pixel-level Image Editing
