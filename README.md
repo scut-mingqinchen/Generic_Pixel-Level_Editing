@@ -3,13 +3,13 @@
 
 ## General Information
 A set of QT apps for pixel-level image processing, based on dense labeling from a very sparse user input.
-- Conference: Pacific Graphics 2019
+- Journal: - Journal: Computer Graphics Forum (Presented at Pacific Graphics 2019)
 - Writers:  Yun Liang, Yibo Gan, Mingqin Chen, Diego Gutierrez, Adolfo Muñoz
 - Institute: College of Mathematics and Informatics, South China Agricultural University; Graphics and Imaging Lab, Universidad de Zaragoza
 
 For information please see the paper:
  - Generic Interactive Pixel-level Image Editing
-   [**Pacific Graphics 2019**](http://giga.cps.unizar.es/~amunoz/projects/CGF2019_editing/CGF2019_editing.pdfv),
+   [**Journal: Computer Graphics Forum 2019**](http://giga.cps.unizar.es/~amunoz/projects/CGF2019_editing/CGF2019_editing.pdfv),
  - Project Site [http://giga.cps.unizar.es/~amunoz/projects/CGF2019_editing/](http://giga.cps.unizar.es/~amunoz/projects/CGF2019_editing/)
 
 Please cite our paper if you use any of the free material in this website:
